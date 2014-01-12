@@ -1,7 +1,7 @@
-whtjjw.com
-==========
+jetone.cn
+=========
 
-The whtjjw.com website, fork of jetone website. Built with Assemble.
+The jetone.cn website. Built with Assemble.
 
 Usage
 -----
