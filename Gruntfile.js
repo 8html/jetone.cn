@@ -180,9 +180,9 @@ module.exports = function(grunt) {
         files: [ 'posts/download.yml' ],
         tasks: [ 'assemble:download' ]
       },
-      product: {
-        files: [ 'posts/product.yml' ],
-        tasks: [ 'assemble:product' ]
+      gps: {
+        files: [ 'posts/gps.yml' ],
+        tasks: [ 'assemble:gps' ]
       },
       job: {
         files: [ 'posts/job.yml' ],
