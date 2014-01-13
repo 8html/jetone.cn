@@ -16,7 +16,7 @@ title: "<%= ( name = configs[nav].TYPES[configs[nav].types.indexOf(permalink.rep
       {{>bread}}
       <div class="clear"></div>
       <div class="prods">
-        {{#eachProperty product}}
+        {{#eachProperty gps}}
         {{#contains value.data.type ../type}}
         <div class="prod">
           <a href="{{value.filename}}"><img src="{{value.data.image}}" width="130" height="100" /></a>
