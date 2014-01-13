@@ -10,8 +10,8 @@ gps:
   bread: '/gps/'
   BREAD: 'GPS产品展示'
 
-solution:
-  bread: '/solution/'
+solutions:
+  bread: '/solutions/'
   BREAD: 'GPS解决方案'
 
 download:
