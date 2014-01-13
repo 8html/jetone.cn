@@ -27,6 +27,18 @@ module.exports = function(grunt) {
         cwd: 'assets/images/',
         src: '**',
         dest: 'site/assets/images/'
+      },
+      images: {
+        expand: true,
+        src: 'images/**',
+        dest: 'site/'
+      },
+      static: {
+        expand: true,
+        cwd: 'static/',
+        src: '**',
+        dest: 'site/',
+        dot: true
       }
     },
     less: {
