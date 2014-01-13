@@ -13,15 +13,15 @@
   </ul>
   <div class="sidemenu_foot png"></div>
 {{else}}
-{{#is nav "product"}}
+{{#is nav "gps"}}
   <div class="sidemenu_head png">
     <h2>GPS产品展示</h2>
     <em>GPS PRODUCTS</em>
   </div>
   <ul class="sidemenu_body png">
-    {{#eachIndex configs.product.types}}
+    {{#eachIndex configs.gps.types}}
       {{#if item}}
-        <li><a{{#is ../../type item}} class="sidemenu_current png"{{/is}} href="/product/{{item}}/">{{get ../../configs.product.TYPES index}}</a></li>
+        <li><a{{#is ../../type item}} class="sidemenu_current png"{{/is}} href="/gps/{{item}}/">{{get ../../configs.gps.TYPES index}}</a></li>
       {{/if}}
     {{/eachIndex}}
   </ul>
