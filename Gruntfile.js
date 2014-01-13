@@ -106,11 +106,11 @@ module.exports = function(grunt) {
         },
         files: { 'site/': [ 'posts/news/*.hbs', 'posts/news/**/*.md' ] }
       },
-      product: {
+      gps: {
         options: {
           layout: 'details.hbs',
-          pages: grunt.file.readYAML('posts/product.yml'),
-          nav: 'product'
+          pages: grunt.file.readYAML('posts/gps.yml'),
+          nav: 'gps'
         },
         files: { 'site/': [] }
       },
