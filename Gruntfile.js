@@ -88,8 +88,8 @@ module.exports = function(grunt) {
     assemble: {
       options: {
         pkg: '<%= pkg %>',
-        plugins: [ 'assemble-permalink', './helpers/posts_list.js', './helpers/all_pages.js' ],
-        helpers: [ 'handlebars-helper-prettify', 'helpers/index.js' ],
+        plugins: [ 'assemble-permalink', './plugins/*.js' ],
+        helpers: [ 'handlebars-helper-prettify', 'helpers/*.js' ],
         partials: [ 'partials/*.hbs' ],
         layoutdir: 'layouts',
         layout: 'default.hbs',
@@ -170,7 +170,7 @@ module.exports = function(grunt) {
         files: [ 'Gruntfile.js' ]
       },
       reassemble: {
-        files: [ 'helpers/*', 'config/*', 'layouts/*', 'partials/*', 'pages/*.handlebars' ],
+        files: [ 'helpers/*', 'plugins/*', 'config/*', 'layouts/*', 'partials/*', 'pages/*.handlebars' ],
         tasks: [ 'assemble' ]
       },
       index: {
