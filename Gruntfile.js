@@ -114,11 +114,11 @@ module.exports = function(grunt) {
         },
         files: { 'site/': [] }
       },
-      solution: {
+      solutions: {
         options: {
           layout: 'details.hbs',
-          pages: grunt.file.readYAML('posts/solution.yml'),
-          nav: 'solution'
+          pages: grunt.file.readYAML('posts/solutions.yml'),
+          nav: 'solutions'
         },
         files: { 'site/': [] }
       },
@@ -188,9 +188,9 @@ module.exports = function(grunt) {
         files: [ 'posts/job.yml' ],
         tasks: [ 'assemble:job' ]
       },
-      solution: {
-        files: [ 'posts/solution.yml' ],
-        tasks: [ 'assemble:solution' ]
+      solutions: {
+        files: [ 'posts/solutions.yml' ],
+        tasks: [ 'assemble:solutions' ]
       },
       images: {
         files: [ 'assets/images/**' ],
