@@ -88,7 +88,7 @@ module.exports = function(grunt) {
     assemble: {
       options: {
         pkg: '<%= pkg %>',
-        plugins: [ 'assemble-permalink', './helpers/posts_list.js' ],
+        plugins: [ 'assemble-permalink', './helpers/posts_list.js', './helpers/all_pages.js' ],
         helpers: [ 'handlebars-helper-prettify', 'helpers/index.js' ],
         partials: [ 'partials/*.hbs' ],
         layoutdir: 'layouts',
@@ -140,7 +140,12 @@ module.exports = function(grunt) {
       },
       static: {
         files: {
-          'site/': [ 'pages/*.hbs' ]
+          'site/': [ 'pages/*.hbs', 'pages/*.handlebars', '!pages/sitemap.handlebars' ]
+        }
+      },
+      final: {
+        files: {
+          'site/': [ 'pages/sitemap.handlebars' ]
         }
       }
     },
@@ -165,7 +170,7 @@ module.exports = function(grunt) {
         files: [ 'Gruntfile.js' ]
       },
       reassemble: {
-        files: [ 'helpers/*', 'config/*', 'layouts/*', 'partials/*' ],
+        files: [ 'helpers/*', 'config/*', 'layouts/*', 'partials/*', 'pages/*.handlebars' ],
         tasks: [ 'assemble' ]
       },
       index: {
