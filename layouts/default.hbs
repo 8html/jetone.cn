@@ -7,7 +7,7 @@
 {{#prettify}}
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <title>{{#if title}}{{ title }}{{else}}{{ pkg.NAME }}{{/if}}-广州GPS,合肥GPS,广东GPS,佛山GPS,顺德GPS</title>
+  <title>{{#if title}}{{ title }}-{{ pkg.NAME }}{{else}}{{ pkg.NAME }}-{{ pkg.keywords }}{{/if}}</title>
   <meta name="viewport" content="width=1024" />
   <meta name="description" content="{{#if description}}{{ description }}{{else}}{{ pkg.description }}{{/if}}" />
   <meta name="keywords" content="{{#if keywords}}{{ keywords }}{{else}}{{join pkg.keywords ', '}}{{/if}}" />
