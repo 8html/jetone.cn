@@ -6,7 +6,7 @@
     image: http://www.jetone.cn/images/gps/ptlxzj.jpg
   content: |
 
-    ![image](http://www.jetone.cn/images/gps/ptlxzj.jpg)
+    ![普通录像主机](http://www.jetone.cn/images/gps/ptlxzj.jpg)
 
     1.1 系统特点
 
@@ -97,7 +97,7 @@
     description: 合肥地区GPS生产厂家捷通数码所研发的JT808能记录最近360小时内与实时时间对应的每分钟车辆位置及状态数据，采用远程监控功能和报警功能。
   content: |
 
-    ![image](http://www.jetone.cn/images/gps/jt808.jpg)
+    ![JT808](http://www.jetone.cn/images/gps/jt808.jpg)
 
     一、产品功能
 
@@ -255,43 +255,31 @@
     
     （二）、其它技术参数
     
-    序号	    项  目	       指  标	         备   注
+    | 序号 | 项目           | 指标  | 备注  |
     
-    1	      工作电压	    直流 12V～30V	 适用12/24 V车辆
+    | :--: | :-------------: | :-------------: | :-------------: |
     
-    2	      功率	        <200mA  @12V	 正常使用状态下
+    | 1    | 工作电压 | 直流 12V～30V | <200mA  @12V | 适用12/24V车辆 |
+
+    | 2    | 功率     | 正常使用状态下 | <200mA  @12V | 适用12/24V车辆 |
     
-    3	      工作温度	    －20℃～+75 ℃	  
+    | 3    | 工作温度 | －20℃～+75 ℃ | <200mA  @12V | 适用12/24V车辆 |
     
-    4	 环境相对湿度	   ～ 85 %	  
+    | 4    | 环境相对湿度 | ～ 85 % | <200mA  @12V | 适用12/24V车辆 |
     
-    5	 事故疑点采样时间间隔	 0.2 秒	  
+    | 5    | 事故疑点采样时间间隔 | 0.2 秒 | <200mA  @12V | 适用12/24V车辆 |
     
-    6	 监测车速范围	 0～255Km/h	 分辨率小于1Km/h
+    | 6    | 监测车速范围 | 0～255Km/h | 分辨率小于1Km/h | 适用12/24V车辆 |
     
-    7	 行驶里程测量范围	 0～999999.9Km	 分辨率小于0.1Km
+    | 7    | 行驶里程测量范围 | 0～999999.9Km | 分辨率小于0.1Km | 适用12/24V车辆 |
     
-    8	  	 RS232接口	  
+    | 8    | RS232接口 | 直流 12V～30V | <200mA  @12V | 适用12/24V车辆 |
+
+    | 9    | 外形尺寸 | 145mm*93mm*36mm | <200mA  @12V | 适用12/24V车辆 |
     
-    9	 外形尺寸	 145mm*93mm*36mm	  
+    | 10   | GPS | 定位精度小于 10 m；定位时间：小于15秒 重新捕获：小于45秒 热启动： 约 20秒 冷启动：不大于150秒 | <200mA  @12V | 适用12/24V车辆 |
     
-    10	 GPS	 定位精度小于 10 m；
-    
-    定位时间：小于15秒
-    
-    重新捕获：小于45秒
-    
-    热启动： 约 20秒
-    
-    冷启动：不大于150秒	 摘自器件手册
-    
-    11	 GPRS	 GPRS Class 10 多时隙功能，Class B 操作模式；
-    
-    支持GSM900/DCS1800 双频；
-    
-    GSM07.07, GSM07.05 和增强型AT 命令集；
-    
-    发射功率：Class　10；	 摘自器件手册
+    | 11   | GPRS | GPRS Class 10 多时隙功能，Class B 操作模式；支持GSM900/DCS1800 双频； GSM07.07, GSM07.05 和增强型AT 命令集； 发射功率：Class　10； | <200mA  @12V | 适用12/24V车辆 |
 
 
 - filename: "/gps/jt-m6.html"
@@ -302,7 +290,7 @@
     description: 广东地区GPS专业生产厂家捷通数码所研发的JT-M6有多样查询功能，能按需设置车辆信息，远程控制，向车载设备收发调度文本信息或扩展指令。
   content: |
 
-    ![image](http://www.jetone.cn/mages/gps/jt-m6.jpg)
+    ![JT-M6](http://www.jetone.cn/mages/gps/jt-m6.jpg)
 
     详细简绍：
 
@@ -479,7 +467,7 @@
     description: 广州地区GPS厂家捷通数码所研发的JT-A08能按需设置车辆信息，能在中心下发远程重启指令，终端自动断电重新启动，保证终端能正常工作。
   content: |
 
-    ![image](http://www.jetone.cn/mages/gps/jt-a08.jpg)
+    ![JT-A08](http://www.jetone.cn/mages/gps/jt-a08.jpg)
 
     查询功能
     
@@ -643,13 +631,13 @@
 
 - filename: "/gps/db44.html"
   data:
-    title: JT-A08
+    title: DB44
     type: extend
     image: http://www.jetone.cn/images/gps/db44.jpg
     description: 佛山地区GPS专业生产厂家捷通数码所研发的DB44能记录驾驶员疲劳驾驶数据，当遇紧急状况时，可通过隐蔽按钮触发报警，便于控制中心实时监控。
   content: |
 
-    ![image](http://www.jetone.cn/mages/gps/db44.jpg)
+    ![DB44](http://www.jetone.cn/mages/gps/db44.jpg)
 
     一、产品功能
     
