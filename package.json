@@ -2,6 +2,7 @@
   "private": true,
   "url": "",
   "production_url": "http://www.jetone.cn",
+  "use_production_url": false,
   "name": "jetone.cn",
   "NAME": "捷通数码",
   "version": "0.0.0",

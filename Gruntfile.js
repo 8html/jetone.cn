@@ -230,8 +230,10 @@ module.exports = function(grunt) {
   grunt.registerTask('assemble_in_production', '', function() {
     grunt.config('assemble.options.production', true);
     var pkg = grunt.config('assemble.options.pkg');
-    pkg.url = pkg.production_url;
-    grunt.config('assemble.options.pkg', pkg);
+    if (pkg.use_production_url) {
+      pkg.url = pkg.production_url;
+      grunt.config('assemble.options.pkg', pkg);
+    }
     grunt.log.ok('Entered production mode.');
   });
   grunt.registerTask('common', [ 'clean', 'less', 'uglify', 'concat', 'clean:tmp', 'copy' ]);
