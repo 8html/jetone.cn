@@ -2,6 +2,7 @@
   data:
     title: 普通录像主机
     type: video
+    keywords: 顺德gps
     description: 顺德地区GPS生产厂家捷通数码所研发的普通录像主机采用嵌入式linux操作系统，消除了病毒的感染，更高稳定性，不能人为修改硬盘存储的数据。
     image: http://www.jetone.cn/images/gps/ptlxzj.jpg
   content: |
@@ -93,6 +94,7 @@
   data:
     title: JT808
     type: extend
+    keywords: 合肥gps
     image: http://www.jetone.cn/images/gps/jt808.jpg
     description: 合肥地区GPS生产厂家捷通数码所研发的JT808能记录最近360小时内与实时时间对应的每分钟车辆位置及状态数据，采用远程监控功能和报警功能。
   content: |
@@ -273,6 +275,7 @@
   data:
     title: JT-M6
     type: extend
+    keywords: 广东gps
     image: http://www.jetone.cn/images/gps/jt-m6.jpg
     description: 广东地区GPS专业生产厂家捷通数码所研发的JT-M6有多样查询功能，能按需设置车辆信息，远程控制，向车载设备收发调度文本信息或扩展指令。
   content: |
@@ -450,6 +453,7 @@
   data:
     title: JT-A08
     type: extend
+    keywords: 广州gps
     image: http://www.jetone.cn/images/gps/jt-a08.jpg
     description: 广州地区GPS厂家捷通数码所研发的JT-A08能按需设置车辆信息，能在中心下发远程重启指令，终端自动断电重新启动，保证终端能正常工作。
   content: |
@@ -621,6 +625,7 @@
   data:
     title: DB44
     type: extend
+    keywords: 佛山gps
     image: http://www.jetone.cn/images/gps/db44.jpg
     description: 佛山地区GPS专业生产厂家捷通数码所研发的DB44能记录驾驶员疲劳驾驶数据，当遇紧急状况时，可通过隐蔽按钮触发报警，便于控制中心实时监控。
   content: |

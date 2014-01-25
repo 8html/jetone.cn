@@ -1,9 +1,37 @@
-- filename: "/solutions/solutions-01.html"
+- filename: "/solutions/video-surveillance-vehicle.html"
   data:
     title: 视频车辆监控管理方案
-    date: 2013-12-12
+    keywords: 视频车辆监控管理方案
+    description: 视频车辆监控管理方案
+    date: 2013-05-01
   content: |
 
-    ![顺德GPS](http://www.jetone.cn/image-news/id07001.jpg)
+    ![视频车辆监控管理方案](http://www.jetone.cn/images/solutions/video-surveillance-vehicle-01.jpg)
 
-    ![顺德GPS](http://www.jetone.cn/image-news/id07002.jpg)
+    ![视频车辆监控管理方案](http://www.jetone.cn/images/solutions/video-surveillance-vehicle-02.jpg)
+
+
+- filename: "/solutions/vehicle-services.html"
+  data:
+    title: 服务业车辆管理方案
+    keywords: 服务业车辆管理方案
+    description: 服务业车辆管理方案
+    date: 2013-05-02
+  content: |
+
+    ![服务业车辆管理方案](http://www.jetone.cn/images/solutions/vehicle-services-01.jpg)
+
+    ![服务业车辆管理方案](http://www.jetone.cn/images/solutions/vehicle-services-02.jpg)
+
+
+- filename: "/solutions/renters-industry.html"
+  data:
+    title: 租贷行业管理方案
+    keywords: 服租贷行业管理方案
+    description: 服租贷行业管理方案
+    date: 2013-05-03
+  content: |
+
+    ![租贷行业管理方案](http://www.jetone.cn/images/solutions/renters-industry-01.jpg)
+
+    ![租贷行业管理方案](http://www.jetone.cn/images/solutions/renters-industry-02.jpg)
