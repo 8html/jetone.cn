@@ -15,8 +15,8 @@ solutions:
   BREAD: 'GPS解决方案'
 
 download:
-  types: [ '', 'client', 'pro' ]
-  TYPES: [ '', 'GPS客户端', 'GPS专业版' ]
+  types: [ '', 'web', 'pro' ]
+  TYPES: [ '', 'GPS网络版', 'GPS专业版' ]
   bread: '/download/'
   BREAD: 'GPS软件下载'
 
