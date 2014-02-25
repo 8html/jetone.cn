@@ -3,6 +3,8 @@ jetone.cn
 
 The jetone.cn website. Built with Assemble.
 
+![jetone](https://f.cloud.github.com/assets/1284703/2255268/cb42bb44-9df1-11e3-9493-d205e8b16d84.png)
+
 Usage
 -----
 
